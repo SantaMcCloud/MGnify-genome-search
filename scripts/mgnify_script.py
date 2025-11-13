@@ -105,6 +105,7 @@ def get_taxonomy_of_mgnify_mag(match_row):
 
 def save_taxa(matches, output_path):
     with open(os.path.join(output_path, 'taxa_matches.tsv'), 'w') as tsv:
+        tsv.write(f'filename\tmatch id\tbest match lineage')
         for row, match in matches.iterrows():
             tsv.write(f"{match['filename']}\t{match['result.match']}\t{match['best_match_taxonomy']}\n")
 
