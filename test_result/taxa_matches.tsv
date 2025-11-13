@@ -1,4 +1,5 @@
-filename	match id	best match lineagebin.5.sig	MGYG000004533	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__RF32;f__CAG-239;g__CAG-495;s__CAG-495 sp000436375
+filename	match id	best match lineage
+bin.5.sig	MGYG000004533	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__RF32;f__CAG-239;g__CAG-495;s__CAG-495 sp000436375
 bin.5.sig	MGYG000323344	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__RF32;f__CAG-239;g__Scatacola_A;s__Scatacola_A faecigallinarum
 bin.5.sig	MGYG000314579	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__RF32;f__CAG-239;g__Scatacola_A;s__Scatacola_A faecigallinarum
 bin.1.sig	MGYG000000217	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Acetatifactor;s__Acetatifactor sp900066565
