@@ -12,7 +12,9 @@ setup(
     license="GPL-3.0 license",
     packages=find_packages(),
     url="https://github.com/SantaMcCloud/MGnify-genome-search",
-    scripts=[
-        "scripts/mgnify_search.py"
-    ],
+    entry_points={
+        "console_scripts": [
+            "mgnify_search = mgnify_search.cli:main",
+        ]
+    },
 )
