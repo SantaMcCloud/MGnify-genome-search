@@ -17,9 +17,9 @@ def parse_arguments():
     """
 
     parser = argparse.ArgumentParser(
-        prog="TODO",
-        description="TODO",
-        usage="TODO",
+        prog="mgnify_search",
+        description="queue MAGs against the MGnify db",
+        usage="mgnify_search fasta_file_path output_path",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         add_help=True,
     )
@@ -27,13 +27,15 @@ def parse_arguments():
     parser.add_argument(
         "fasta_file_path", 
         type=str, 
-        help="TODO"
+        help="enter the path where all the fasta files are stored to get queued",
+        default="./"
     )
 
     parser.add_argument(
         'output_path',
         type=str,
-        help='TODO'
+        help='enter the output path where the result should be stored',
+        default="./"
     )
 
     parser.print_usage = parser.print_help

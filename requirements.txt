@@ -1,0 +1,5 @@
+pandas
+requests
+jsonapi-client
+sourmash
+biopython
