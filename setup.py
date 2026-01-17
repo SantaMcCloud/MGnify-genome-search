@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 desc = "utility script for queue MAGs against the MGnify db"
 setup(
     name="mgnify_search",
-    version='1.0',
+    version='1.0.0',
     description=desc,
     long_description=desc + "\n See README for more information.",
     author="Santino Faack",
