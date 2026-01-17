@@ -13,6 +13,6 @@ setup(
     packages=find_packages(),
     url="https://github.com/SantaMcCloud/MGnify-genome-search",
     scripts=[
-        "scripts/mgnify_script.py"
+        "scripts/mgnify_search.py"
     ],
 )
