@@ -38,6 +38,8 @@ def parse_arguments():
         default="./"
     )
 
+    parser.add_argument("--version", action="version", version="1.0.0")
+
     parser.print_usage = parser.print_help
 
     args = parser.parse_args()
