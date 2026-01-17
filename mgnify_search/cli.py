@@ -114,7 +114,7 @@ def save_taxa(matches, output_path):
             tsv.write(f"{match['filename']}\t{match['result.match']}\t{match['best_match_taxonomy']}\n")
 
 
-def main()
+def main():
     args = parse_arguments()
 
     check_path(args.output_path)
